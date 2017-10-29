@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6bc8a758-8cde-4ba3-858b-ad31d352bd6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Support">
+      <UniqueIdentifier>{d828a7b4-d33e-4b1b-86b3-2187a2c1a10b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Services">
+      <UniqueIdentifier>{784d278f-225e-418a-af8a-f88c9e20ab27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Services\Render">
+      <UniqueIdentifier>{ea2a219c-c14b-402f-9de5-f4b51662e725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Services\Render\DX11">
+      <UniqueIdentifier>{457a833b-2dfe-48d3-b8f1-178831e2b778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Services\Render\Debug">
+      <UniqueIdentifier>{c18df142-260d-4463-8103-528f35a9f830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Services\Controls">
+      <UniqueIdentifier>{6869f75e-040b-4642-bfb3-7f8a10ecb057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Support\json">
+      <UniqueIdentifier>{293968eb-cb08-43b4-9e17-8224134270dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Services\TaskExecutor">
+      <UniqueIdentifier>{608305c6-6900-4586-981a-86b1aa0d003f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Support\StringUtils.cpp">
+      <Filter>Source\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Support\Timer.cpp">
+      <Filter>Source\Support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Services\Render\Program.cpp">
+      <Filter>Source\Services\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Services\Render\Render.cpp">
+      <Filter>Source\Services\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Services\Render\DX11\DeviceDX11.cpp">
+      <Filter>Source\Services\Render\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Services\Render\DX11\GeometryBufferDX11.cpp">
+      <Filter>Source\Services\Render\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Services\Render\DX11\ShaderDX11.cpp">
+      <Filter>Source\Services\Render\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Services\Render\DX11\TextureDX11.cpp">
+      <Filter>Source\Services\Render\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Services\Render\Debug\DebugBoxes.cpp">
+      <Filter>Source\Services\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Services\Render\Debug\DebugLines.cpp">
+      <Filter>Source\Services\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Services\Render\Debug\DebugPrograms.cpp">
+      <Filter>Source\Services\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Services\Render\Debug\DebugSpheres.cpp">
+      <Filter>Source\Services\Render\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Services\Controls\Controls.cpp">
+      <Filter>Source\Services\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Support\json\block_allocator.cpp">
+      <Filter>Source\Support\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Support\json\json.cpp">
+      <Filter>Source\Support\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Support\json\JSONReader.cpp">
+      <Filter>Source\Support\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Support\json\JSONWriter.cpp">
+      <Filter>Source\Support\json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Services\TaskExecutor\TaskExecutor.cpp">
+      <Filter>Source\Services\TaskExecutor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\freecamera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Support\Buffer.h">
+      <Filter>Source\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\ClassFactory.h">
+      <Filter>Source\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\Color.h">
+      <Filter>Source\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\Delegate.h">
+      <Filter>Source\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\Matrix.h">
+      <Filter>Source\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\Quaternion.h">
+      <Filter>Source\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\StringUtils.h">
+      <Filter>Source\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\Support.h">
+      <Filter>Source\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\Timer.h">
+      <Filter>Source\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\Vector.h">
+      <Filter>Source\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\Vector2.h">
+      <Filter>Source\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\Vector4.h">
+      <Filter>Source\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Services\Render\Device.h">
+      <Filter>Source\Services\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Services\Render\GeometryBuffer.h">
+      <Filter>Source\Services\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Services\Render\Program.h">
+      <Filter>Source\Services\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Services\Render\Render.h">
+      <Filter>Source\Services\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Services\Render\Shader.h">
+      <Filter>Source\Services\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Services\Render\Texture.h">
+      <Filter>Source\Services\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Services\Render\DX11\DeviceDX11.h">
+      <Filter>Source\Services\Render\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Services\Render\DX11\GeometryBufferDX11.h">
+      <Filter>Source\Services\Render\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Services\Render\DX11\ShaderDX11.h">
+      <Filter>Source\Services\Render\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Services\Render\DX11\TextureDX11.h">
+      <Filter>Source\Services\Render\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Services\Render\Debug\Debug.h">
+      <Filter>Source\Services\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Services\Render\Debug\DebugBoxes.h">
+      <Filter>Source\Services\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Services\Render\Debug\DebugLines.h">
+      <Filter>Source\Services\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Services\Render\Debug\DebugPrograms.h">
+      <Filter>Source\Services\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Services\Render\Debug\DebugSpheres.h">
+      <Filter>Source\Services\Render\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Services\Controls\Controls.h">
+      <Filter>Source\Services\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\json\block_allocator.h">
+      <Filter>Source\Support\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\json\json.h">
+      <Filter>Source\Support\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\json\JSONReader.h">
+      <Filter>Source\Support\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Support\json\JSONWriter.h">
+      <Filter>Source\Support\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Services\TaskExecutor\TaskExecutor.h">
+      <Filter>Source\Services\TaskExecutor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\freecamera.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
